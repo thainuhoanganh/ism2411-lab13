@@ -1,3 +1,14 @@
+'''
+1. A boolean filter checks every row in a DataFrame agaisnt a condition 
+(producing True or False for each row) and keeps only the rows where the condition evaluates to True. 
+
+2. df['revenue'] returns a 1-dimensional pandas Series, while [['revenue']] returns a 2-dimensional pandas DataFrame.
+This distinction matters when passing data into function or mehtods that strictly expect a 2D DataFrame versus 1D Series operations. 
+
+3. Reproducibility and automation: in pandas, every filtering, calculation, and cleaning step is saved in a script that can be re-run instantly 
+on updated or massive datasets with zero manual clicking or risk of accidental cell edits. 
+'''
+
 import pandas as pd
 
 print('--- Exercise 1 ---')
