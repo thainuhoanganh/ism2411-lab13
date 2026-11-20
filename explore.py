@@ -22,3 +22,5 @@ print('--- Exercise 4 ---')
 big_south = df[(df['region'] == 'South') & (df['revenue'] > 1000)]
 print(len(big_south))
 print(big_south.head())
+
+
