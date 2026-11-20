@@ -34,3 +34,13 @@ print(df['per_unit'].mean())
 print('--- Exercise 6 ---')
 print(df['region'].unique())
 print(df['region'].value_counts())
+
+
+print('--- Exercise 7 ---')
+subset_df = df[['region', 'product', 'revenue']]
+print(subset_df.shape)
+
+
+print('--- Exercise 8 ---')
+df.to_csv('data/explored.csv', index = False)
+print('Saved data/explored.csv successfully')
